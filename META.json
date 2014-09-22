@@ -1,0 +1,41 @@
+{
+   "abstract" : "use an F<nRF24L01+> chip with C<Device::BusPirate>",
+   "author" : [
+      "Paul Evans <leonerd@leonerd.org.uk>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.4206",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Device-BusPirate-Chip-nRF24L01P",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Test::More" : "0.88"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Device::BusPirate::Chip" : "0"
+         }
+      }
+   },
+   "provides" : {
+      "Device::BusPirate::Chip::nRF24L01P" : {
+         "file" : "lib/Device/BusPirate/Chip/nRF24L01P.pm",
+         "version" : "0.01"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
+   },
+   "version" : "0.01"
+}

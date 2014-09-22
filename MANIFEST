@@ -1,0 +1,14 @@
+Build.PL
+examples/nRF24L01+_CONTWAVE.pl
+examples/nRF24L01+_pollRPD.pl
+examples/nRF24L01+_PRX.pl
+examples/nRF24L01+_PTX.pl
+lib/Device/BusPirate/Chip/nRF24L01P.pm
+MANIFEST			This list of files
+t/00use.t
+t/99pod.t
+Makefile.PL
+README
+LICENSE
+META.yml
+META.json
